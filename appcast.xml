@@ -9,9 +9,12 @@
             <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Email Reminder 1.0.6
+            <description sparkle:format="markdown"><![CDATA[## 1.0.6
 
-Maintenance update.
+- Added a General setting to show or hide the Calendar menu bar item.
+- When Calendar is disabled, the app now stops Calendar refreshes, meeting reminder timers, meeting notifications, and clears active meeting reminder state.
+- Calendar stays disabled after Google sign-in instead of refreshing in the background.
+
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.6.zip" length="2225003" type="application/octet-stream" sparkle:edSignature="3J7SF4uTe0XHzdnJThPnoYfpfEwCXMBgVj4fo9YoS1GgTaSRljou4H4zzGqrFVxBB6Eyh/FXMqfy9BVDc5caCQ=="/>
         </item>
