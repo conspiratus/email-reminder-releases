@@ -3,6 +3,19 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Thu, 28 May 2026 12:19:01 +0200</pubDate>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Email Reminder 1.0.3
+
+Maintenance update.
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.3.zip" length="2182367" type="application/octet-stream" sparkle:edSignature="MdtB5mBI/E5iV2OznaF6xfomT2HHMWzYuIC4heRHZoImz/EF4QcwnIupXbTw42X9ooXEsfh3Fzc6Aqt/ecbfBg=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Thu, 28 May 2026 12:13:10 +0200</pubDate>
             <sparkle:version>102</sparkle:version>
@@ -34,19 +47,6 @@ Maintenance update.
             <sparkle:deltas>
                 <enclosure url="https://conspiratus.github.io/email-reminder-releases/Email%20Reminder101-100.delta" sparkle:deltaFrom="100" length="3986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eT/8LJRm3f9tTl1J2eJbYwYLMX2bsEuWKkVRNY9+bz4iS4h+vRg284GzHlsfxXvg6LncPV17BmScsYLNUgCKBg=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Thu, 28 May 2026 10:15:44 +0200</pubDate>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Email Reminder 1.0.0
-
-Maintenance update.
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.0.zip" length="2176328" type="application/octet-stream" sparkle:edSignature="qIPXgmL9TV0TDCeKuNXM3XTWhJZgqG0mH9QPVhG4bdFlwvxi4PscHVzWO0y1Mr1AS0qSvI7hHKcigmpf6+AbDg=="/>
         </item>
     </channel>
 </rss>
