@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Fri, 29 May 2026 11:44:23 +0200</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.8
+
+- Paused Gmail and Calendar sync while the Mac session is locked, inactive, or screens are asleep, then resumed sync on unlock/wake.
+- Added a configurable Calendar countdown lead time and show the next-meeting countdown even while another meeting is in progress.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.8.zip" length="2272461" type="application/octet-stream" sparkle:edSignature="3pGfoJS4BkqhOZ1+5xMqLZJRf1c364poXEhJzS1uFkAMpxworO02tcw9B1KxOZXRSZbW82K6rlawWPGrsun/Cw=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Thu, 28 May 2026 14:14:37 +0200</pubDate>
             <sparkle:version>107</sparkle:version>
@@ -32,19 +47,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.6.zip" length="2225003" type="application/octet-stream" sparkle:edSignature="3J7SF4uTe0XHzdnJThPnoYfpfEwCXMBgVj4fo9YoS1GgTaSRljou4H4zzGqrFVxBB6Eyh/FXMqfy9BVDc5caCQ=="/>
-        </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Thu, 28 May 2026 13:04:22 +0200</pubDate>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Email Reminder 1.0.5
-
-Test update for Sparkle automatic update verification.
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.5.zip" length="2222732" type="application/octet-stream" sparkle:edSignature="ZS67b0uIMt5aU0Yq6AnKHZZUx3vtapoLtuInXS/P/RjxXmm9G6zsPDf/WjICl49nECIAlmEM8zDi6IKXLmRfBw=="/>
         </item>
     </channel>
 </rss>
