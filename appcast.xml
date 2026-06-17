@@ -3,6 +3,20 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.10</title>
+            <pubDate>Wed, 17 Jun 2026 16:18:35 +0200</pubDate>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.10
+
+- Stabilized the email menu height and reset the message-list scroll state when message counts change.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.10.zip" length="2273545" type="application/octet-stream" sparkle:edSignature="tlrb3b2bkL9A5ViNSO1syctZW9cCnzUurhZWJgrA3Cluj8CM74pzhKG8LF+Zx8Ql42emJswDXGck/Sj+h1+nAA=="/>
+        </item>
+        <item>
             <title>1.0.9</title>
             <pubDate>Tue, 02 Jun 2026 14:19:59 +0200</pubDate>
             <sparkle:version>109</sparkle:version>
@@ -30,21 +44,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.8.zip" length="2272461" type="application/octet-stream" sparkle:edSignature="3pGfoJS4BkqhOZ1+5xMqLZJRf1c364poXEhJzS1uFkAMpxworO02tcw9B1KxOZXRSZbW82K6rlawWPGrsun/Cw=="/>
-        </item>
-        <item>
-            <title>1.0.7</title>
-            <pubDate>Thu, 28 May 2026 14:14:37 +0200</pubDate>
-            <sparkle:version>107</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.7
-
-- Added a Calendar meeting details popover with creator, organizer, and participant information.
-- Added local Calendar meeting dismiss from the details popover; dismissed recurring meetings hide only the current event instance.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.7.zip" length="2263475" type="application/octet-stream" sparkle:edSignature="9JJ1/Z+Bx92zKfiiyroDtrtvE2t6E32QlP+3RA3gNtxcfuw6/i6wQO51NUrZlzQi3n6202C45zLwH27Mh9S5BQ=="/>
         </item>
     </channel>
 </rss>
