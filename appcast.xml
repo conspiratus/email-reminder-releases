@@ -3,6 +3,20 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.12</title>
+            <pubDate>Thu, 23 Jul 2026 15:01:56 +0200</pubDate>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.12
+
+- Added Default NHI access group ID in Coordination settings. The local Bridge now uses it for delegations that omit `access_group_ids` and accepts `assignee_user_ids` as a convenience input.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.12.zip" length="2556288" type="application/octet-stream" sparkle:edSignature="LNbauBlJKqY1I70vsjcs1hLl/2dFinBkKM+wj1GXZF0NZkaVx2zvzehKvslTFw+m8dDfqnLbd4152ANTYkTQCg=="/>
+        </item>
+        <item>
             <title>1.0.11</title>
             <pubDate>Thu, 23 Jul 2026 14:37:22 +0200</pubDate>
             <sparkle:version>111</sparkle:version>
@@ -29,20 +43,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.10.zip" length="2273545" type="application/octet-stream" sparkle:edSignature="tlrb3b2bkL9A5ViNSO1syctZW9cCnzUurhZWJgrA3Cluj8CM74pzhKG8LF+Zx8Ql42emJswDXGck/Sj+h1+nAA=="/>
-        </item>
-        <item>
-            <title>1.0.9</title>
-            <pubDate>Tue, 02 Jun 2026 14:19:59 +0200</pubDate>
-            <sparkle:version>109</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.9
-
-- Fixed the email menu layout after dismissing all Action required items so the header and settings toolbar remain visible.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.9.zip" length="2272772" type="application/octet-stream" sparkle:edSignature="1yxETfnd+MxCZNrZJrAw8SBITAQu18EfqDNPmo9b6vEsk9VNOGmrNMusbja23DUNAYuslLDVkSYJ9IltVCGRDQ=="/>
         </item>
     </channel>
 </rss>
