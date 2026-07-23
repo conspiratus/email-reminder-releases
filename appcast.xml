@@ -16,7 +16,7 @@
 - Claude Code opens the linked session with the NHI briefing prefilled; Codex opens the linked thread and receives the same briefing through the clipboard until its extension exposes a public text-insertion API.
 
 ]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.15.zip" length="2570435" type="application/octet-stream" sparkle:edSignature="eaLFgaQZLriFKiwB2tlw6p7NcYDFCYLN86eFxYdA7/Qml3yvFDeUf1UMHJvC9h/a0MR9GwAheAVER5sN432PDg=="/>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.15.zip" length="2570435" type="application/octet-stream" sparkle:edSignature="s1NhtxsuXIfCSUjExfIAWkibhHJruA0+KGpQINJxRGVpYefs7n9KB8IyJo5oPNJE+gbrJzoMWmZdJR0PxuUBCw=="/>
         </item>
         <item>
             <title>1.0.14</title>
