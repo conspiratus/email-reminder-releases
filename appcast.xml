@@ -3,6 +3,20 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.14</title>
+            <pubDate>Thu, 23 Jul 2026 16:16:29 +0200</pubDate>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.14
+
+- Made NHI bootstrap parsing tolerant of both string and numeric MAP user IDs while the server contract is rolled out.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.14.zip" length="2557064" type="application/octet-stream" sparkle:edSignature="Dpag933ftmcJQAwWWbGEqXcDIT+t9/JIlDVX/OWq2TcNX1SOgEVc1g3gZJTm+gddQFc7NENZdY+FGStvdBjdBw=="/>
+        </item>
+        <item>
             <title>1.0.13</title>
             <pubDate>Thu, 23 Jul 2026 16:07:38 +0200</pubDate>
             <sparkle:version>113</sparkle:version>
@@ -28,20 +42,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.12.zip" length="2556288" type="application/octet-stream" sparkle:edSignature="xEIZmD0TVnUCkMS34fY+m+ocFPjse69nTdLY2VYT0IvV1sZrWIZSPOmG4GRo/oaABjDbK5rnloVSbOQxRL1NBA=="/>
-        </item>
-        <item>
-            <title>1.0.11</title>
-            <pubDate>Thu, 23 Jul 2026 14:37:22 +0200</pubDate>
-            <sparkle:version>111</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.11
-
-- Added the first NHI macOS worker slice: trusted identity, durable coordination inbox, actionable notifications, Agent Profiles, and a localhost NHI Bridge for VS Code agents.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.11.zip" length="2549215" type="application/octet-stream" sparkle:edSignature="tY9UZtcLso09E8HbCN3Pu4QK3Nxu25Wh81GBUREtZteHFcOf5zkepcIt8UU7/b3MG3Gd0zDG/t8wxZMm7LC7BA=="/>
         </item>
     </channel>
 </rss>
