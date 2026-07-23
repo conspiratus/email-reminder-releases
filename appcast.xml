@@ -3,6 +3,20 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.11</title>
+            <pubDate>Thu, 23 Jul 2026 14:37:22 +0200</pubDate>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.11
+
+- Added the first NHI macOS worker slice: trusted identity, durable coordination inbox, actionable notifications, Agent Profiles, and a localhost NHI Bridge for VS Code agents.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.11.zip" length="2549215" type="application/octet-stream" sparkle:edSignature="tY9UZtcLso09E8HbCN3Pu4QK3Nxu25Wh81GBUREtZteHFcOf5zkepcIt8UU7/b3MG3Gd0zDG/t8wxZMm7LC7BA=="/>
+        </item>
+        <item>
             <title>1.0.10</title>
             <pubDate>Wed, 17 Jun 2026 16:18:35 +0200</pubDate>
             <sparkle:version>110</sparkle:version>
@@ -29,21 +43,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.9.zip" length="2272772" type="application/octet-stream" sparkle:edSignature="1yxETfnd+MxCZNrZJrAw8SBITAQu18EfqDNPmo9b6vEsk9VNOGmrNMusbja23DUNAYuslLDVkSYJ9IltVCGRDQ=="/>
-        </item>
-        <item>
-            <title>1.0.8</title>
-            <pubDate>Fri, 29 May 2026 11:44:23 +0200</pubDate>
-            <sparkle:version>108</sparkle:version>
-            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.8
-
-- Paused Gmail and Calendar sync while the Mac session is locked, inactive, or screens are asleep, then resumed sync on unlock/wake.
-- Added a configurable Calendar countdown lead time and show the next-meeting countdown even while another meeting is in progress.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.8.zip" length="2272461" type="application/octet-stream" sparkle:edSignature="3pGfoJS4BkqhOZ1+5xMqLZJRf1c364poXEhJzS1uFkAMpxworO02tcw9B1KxOZXRSZbW82K6rlawWPGrsun/Cw=="/>
         </item>
     </channel>
 </rss>
