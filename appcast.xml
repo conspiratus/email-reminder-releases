@@ -3,6 +3,22 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.15</title>
+            <pubDate>Thu, 23 Jul 2026 18:17:27 +0200</pubDate>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.15
+
+- Added IDE handoff profiles for Codex in VS Code and Claude Code in VS Code.
+- NHI delegations created from a detected IDE conversation now retain its provider and conversation ID, so self-delegated work can return to that conversation.
+- Claude Code opens the linked session with the NHI briefing prefilled; Codex opens the linked thread and receives the same briefing through the clipboard until its extension exposes a public text-insertion API.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.15.zip" length="2570435" type="application/octet-stream" sparkle:edSignature="eaLFgaQZLriFKiwB2tlw6p7NcYDFCYLN86eFxYdA7/Qml3yvFDeUf1UMHJvC9h/a0MR9GwAheAVER5sN432PDg=="/>
+        </item>
+        <item>
             <title>1.0.14</title>
             <pubDate>Thu, 23 Jul 2026 16:16:29 +0200</pubDate>
             <sparkle:version>114</sparkle:version>
@@ -28,19 +44,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.13.zip" length="2557334" type="application/octet-stream" sparkle:edSignature="3935QZF0nj37uv5BeCoXCAAxhvcad7i9n2kI40/rOU9+l1IkH+R7K7Mh0bjprueS6taHhhOIgAHW11EJdlKEDg=="/>
-        </item>
-        <item>
-            <title>1.0.12</title>
-            <pubDate>Thu, 23 Jul 2026 15:01:56 +0200</pubDate>
-            <sparkle:version>112</sparkle:version>
-            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[
-- Added Default NHI access group ID in Coordination settings. The local Bridge now uses it for delegations that omit `access_group_ids` and accepts `assignee_user_ids` as a convenience input.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.12.zip" length="2556288" type="application/octet-stream" sparkle:edSignature="xEIZmD0TVnUCkMS34fY+m+ocFPjse69nTdLY2VYT0IvV1sZrWIZSPOmG4GRo/oaABjDbK5rnloVSbOQxRL1NBA=="/>
         </item>
     </channel>
 </rss>
