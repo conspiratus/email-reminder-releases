@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.22</title>
+            <pubDate>Fri, 24 Jul 2026 14:43:16 +0200</pubDate>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.22
+
+- Bundled and automatically refresh the Codex NHI delegation skill with Email Reminder updates.
+- Added the required NHI delegation priority to the Codex skill request, with context-based priority guidance and a normal-priority fallback.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.22.zip" length="3040530" type="application/octet-stream" sparkle:edSignature="IkZmuLHwEnwjffpGPH86GxC61oXyB5yQlY5RXiR58/ypDYoj5GuX8Xy1AubD2v8YiBoQVFJ/QIm/a31Bzua6CQ=="/>
+        </item>
+        <item>
             <title>1.0.21</title>
             <pubDate>Fri, 24 Jul 2026 14:26:42 +0200</pubDate>
             <sparkle:version>121</sparkle:version>
@@ -30,25 +45,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.20.zip" length="3544147" type="application/octet-stream" sparkle:edSignature="Wqm64TEeUp25nB0o54yyeax+8JEMtiSiDC+R7fzfANPg1UISF58wyaUWikdkHDUXunmoZk3ZAmIs2re9m62xBQ=="/>
-        </item>
-        <item>
-            <title>1.0.19</title>
-            <pubDate>Fri, 24 Jul 2026 13:31:36 +0200</pubDate>
-            <sparkle:version>119</sparkle:version>
-            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.19
-
-- Added a draggable always-on-top NHI desktop mascot for configured MAP users, including rounded task bubbles and a complete incoming/outgoing task board.
-- Added per-task urgency and task creator display; local agents now choose priority from task context.
-- Added after-meeting NHI reminders using only the recipient's local Google Calendar, with both native and mascot notifications.
-- Added durable recipient-owned agent-chat bindings: a task now opens the recipient's own saved Codex conversation instead of the originator's chat.
-- Codex in VS Code now types and submits the full NHI briefing through macOS Accessibility instead of only copying it to the clipboard.
-- Added local NHI debug improvements and remembered mascot position.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.19.zip" length="3584999" type="application/octet-stream" sparkle:edSignature="fZw9uVusJDHszQGVDwzAEouoK53Dd4upNwrnyBR89AjjrkczL5Vi9n1EKuns2lUin0gD6x6UJRwkxUV/vfHwBA=="/>
         </item>
     </channel>
 </rss>
