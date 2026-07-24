@@ -3,6 +3,25 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.19</title>
+            <pubDate>Fri, 24 Jul 2026 13:31:36 +0200</pubDate>
+            <sparkle:version>119</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.19
+
+- Added a draggable always-on-top NHI desktop mascot for configured MAP users, including rounded task bubbles and a complete incoming/outgoing task board.
+- Added per-task urgency and task creator display; local agents now choose priority from task context.
+- Added after-meeting NHI reminders using only the recipient's local Google Calendar, with both native and mascot notifications.
+- Added durable recipient-owned agent-chat bindings: a task now opens the recipient's own saved Codex conversation instead of the originator's chat.
+- Codex in VS Code now types and submits the full NHI briefing through macOS Accessibility instead of only copying it to the clipboard.
+- Added local NHI debug improvements and remembered mascot position.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.19.zip" length="3584999" type="application/octet-stream" sparkle:edSignature="Of/9YnESWLTDnZMrYDtOryjc5iAKln4e2LTZWfY6DgomunUAqyue1osagAgFJO9Po5fzmhK2hmDKKZP+IW+3AA=="/>
+        </item>
+        <item>
             <title>1.0.18</title>
             <pubDate>Fri, 24 Jul 2026 12:00:13 +0200</pubDate>
             <sparkle:version>118</sparkle:version>
@@ -34,20 +53,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.17.zip" length="2592956" type="application/octet-stream" sparkle:edSignature="DnE8Y3w2VJsOJOsEyXvuHf3cii8ffACmsg4oL53MLNOrUxD4C91HIxuilt5IZOoiJLJAPrEQJ4dzFffs72KpCA=="/>
-        </item>
-        <item>
-            <title>1.0.16</title>
-            <pubDate>Fri, 24 Jul 2026 09:54:37 +0200</pubDate>
-            <sparkle:version>116</sparkle:version>
-            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.16
-
-- Fixed a Settings crash when SwiftUI refreshed an Agent Profile binding after that profile had been removed.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.16.zip" length="2570662" type="application/octet-stream" sparkle:edSignature="J2EF3MZ5biQ80f7GNNgD8flybZIHU7U7GsingGBK7MH6jpQ4IInjtjPxJ+FZLRuLWP7o/BAsFZTq5cmilYT9Bg=="/>
         </item>
     </channel>
 </rss>
