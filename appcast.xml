@@ -14,7 +14,7 @@
 - Fixed a Settings crash when SwiftUI refreshed an Agent Profile binding after that profile had been removed.
 
 ]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.16.zip" length="2570662" type="application/octet-stream" sparkle:edSignature="IiShFCaaTACs8mp0ygw8we1YmZBWNYzjQLKVeObDBLe6dLUHA2WgCHfcm6Zcq9OBWjDsFBr55c6SobhQmweUBA=="/>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.16.zip" length="2570662" type="application/octet-stream" sparkle:edSignature="J2EF3MZ5biQ80f7GNNgD8flybZIHU7U7GsingGBK7MH6jpQ4IInjtjPxJ+FZLRuLWP7o/BAsFZTq5cmilYT9Bg=="/>
         </item>
         <item>
             <title>1.0.15</title>
