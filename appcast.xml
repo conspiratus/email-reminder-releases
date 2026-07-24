@@ -3,6 +3,25 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.18</title>
+            <pubDate>Fri, 24 Jul 2026 12:00:13 +0200</pubDate>
+            <sparkle:version>118</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.18
+
+- Added a built-in local NHI MCP server and native helper for Claude Desktop. The helper keeps MAP and Google credentials in Email Reminder and exposes a documented delegation skill and typed NHI tools.
+- Added one-click Claude Desktop MCP connection setup, with no per-user skill script or manually copied bridge token.
+- Added exact schema guidance for creating NHI delegations, including access groups, resolved assignees, expected results, and artifacts.
+- Added built-in Codex Desktop, Claude Desktop, VS Code, and CLI agent profiles, plus a default NHI access-group setting.
+- Added an optional floating NHI debug console for local Bridge, synchronization, and agent-launch diagnostics.
+- Claude Desktop handoffs now open a new Code chat, type the task briefing directly, and submit it without using the clipboard when Accessibility permission is granted.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.18.zip" length="2680843" type="application/octet-stream" sparkle:edSignature="ebX+v3rBy4l8u/6bcYqK3Zd0rMfOhFio23jmYId1hejkOiHAX8+8fa8FdtsqxsO4tbuOyK4u3nxU6kWbqMXYAA=="/>
+        </item>
+        <item>
             <title>1.0.17</title>
             <pubDate>Fri, 24 Jul 2026 09:58:33 +0200</pubDate>
             <sparkle:version>117</sparkle:version>
@@ -30,22 +49,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.16.zip" length="2570662" type="application/octet-stream" sparkle:edSignature="J2EF3MZ5biQ80f7GNNgD8flybZIHU7U7GsingGBK7MH6jpQ4IInjtjPxJ+FZLRuLWP7o/BAsFZTq5cmilYT9Bg=="/>
-        </item>
-        <item>
-            <title>1.0.15</title>
-            <pubDate>Thu, 23 Jul 2026 18:17:27 +0200</pubDate>
-            <sparkle:version>115</sparkle:version>
-            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.15
-
-- Added IDE handoff profiles for Codex in VS Code and Claude Code in VS Code.
-- NHI delegations created from a detected IDE conversation now retain its provider and conversation ID, so self-delegated work can return to that conversation.
-- Claude Code opens the linked session with the NHI briefing prefilled; Codex opens the linked thread and receives the same briefing through the clipboard until its extension exposes a public text-insertion API.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.15.zip" length="2570435" type="application/octet-stream" sparkle:edSignature="s1NhtxsuXIfCSUjExfIAWkibhHJruA0+KGpQINJxRGVpYefs7n9KB8IyJo5oPNJE+gbrJzoMWmZdJR0PxuUBCw=="/>
         </item>
     </channel>
 </rss>
