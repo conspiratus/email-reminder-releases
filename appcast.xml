@@ -3,6 +3,20 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.20</title>
+            <pubDate>Fri, 24 Jul 2026 14:12:25 +0200</pubDate>
+            <sparkle:version>120</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.20
+
+- Removed NHI coordination events and counters from the Gmail menu-bar inbox; NHI work is now handled through the mascot and its dedicated task board.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.20.zip" length="3544147" type="application/octet-stream" sparkle:edSignature="Wqm64TEeUp25nB0o54yyeax+8JEMtiSiDC+R7fzfANPg1UISF58wyaUWikdkHDUXunmoZk3ZAmIs2re9m62xBQ=="/>
+        </item>
+        <item>
             <title>1.0.19</title>
             <pubDate>Fri, 24 Jul 2026 13:31:36 +0200</pubDate>
             <sparkle:version>119</sparkle:version>
@@ -38,21 +52,6 @@
 - Claude Desktop handoffs now open a new Code chat, type the task briefing directly, and submit it without using the clipboard when Accessibility permission is granted.
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.18.zip" length="2680843" type="application/octet-stream" sparkle:edSignature="RdY0fzTmqE7brI908stvcXlAKXBDm9L2sU/9aVsts/fbdgf3Eu83UETf//m7jFCLWKIZNjY6bU+41bgR696YBw=="/>
-        </item>
-        <item>
-            <title>1.0.17</title>
-            <pubDate>Fri, 24 Jul 2026 09:58:33 +0200</pubDate>
-            <sparkle:version>117</sparkle:version>
-            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.17
-
-- Let a coordination task open an agent picker on click, including retry after a failed agent launch.
-- Kept IDE handoff tasks actionable after the briefing is opened so they can be sent again or routed to another agent.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.17.zip" length="2592956" type="application/octet-stream" sparkle:edSignature="DnE8Y3w2VJsOJOsEyXvuHf3cii8ffACmsg4oL53MLNOrUxD4C91HIxuilt5IZOoiJLJAPrEQJ4dzFffs72KpCA=="/>
         </item>
     </channel>
 </rss>
