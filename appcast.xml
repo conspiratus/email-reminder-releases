@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.21</title>
+            <pubDate>Fri, 24 Jul 2026 14:26:42 +0200</pubDate>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.21
+
+- Replaced the NHI mascot with a compact new pixel-art character.
+- Removed the mascot window's unused vertical space, enlarged the character slightly, and moved task bubbles below it.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.21.zip" length="3029439" type="application/octet-stream" sparkle:edSignature="ugutKc9lcbvSoDiTkIZLEeFwTt9tYlFBF6rbb15SFPHroYTfnQAiWpEJDju7gAjrYiycmBvqmCTVVWCbyrj+Aw=="/>
+        </item>
+        <item>
             <title>1.0.20</title>
             <pubDate>Fri, 24 Jul 2026 14:12:25 +0200</pubDate>
             <sparkle:version>120</sparkle:version>
@@ -34,24 +49,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.19.zip" length="3584999" type="application/octet-stream" sparkle:edSignature="fZw9uVusJDHszQGVDwzAEouoK53Dd4upNwrnyBR89AjjrkczL5Vi9n1EKuns2lUin0gD6x6UJRwkxUV/vfHwBA=="/>
-        </item>
-        <item>
-            <title>1.0.18</title>
-            <pubDate>Fri, 24 Jul 2026 12:00:13 +0200</pubDate>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.18
-
-- Added a built-in local NHI MCP server and native helper for Claude Desktop. The helper keeps MAP and Google credentials in Email Reminder and exposes a documented delegation skill and typed NHI tools.
-- Added one-click Claude Desktop MCP connection setup, with no per-user skill script or manually copied bridge token.
-- Added exact schema guidance for creating NHI delegations, including access groups, resolved assignees, expected results, and artifacts.
-- Added built-in Codex Desktop, Claude Desktop, VS Code, and CLI agent profiles, plus a default NHI access-group setting.
-- Added an optional floating NHI debug console for local Bridge, synchronization, and agent-launch diagnostics.
-- Claude Desktop handoffs now open a new Code chat, type the task briefing directly, and submit it without using the clipboard when Accessibility permission is granted.
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.18.zip" length="2680843" type="application/octet-stream" sparkle:edSignature="RdY0fzTmqE7brI908stvcXlAKXBDm9L2sU/9aVsts/fbdgf3Eu83UETf//m7jFCLWKIZNjY6bU+41bgR696YBw=="/>
         </item>
     </channel>
 </rss>
