@@ -6,4 +6,3 @@
 - Added built-in Codex Desktop, Claude Desktop, VS Code, and CLI agent profiles, plus a default NHI access-group setting.
 - Added an optional floating NHI debug console for local Bridge, synchronization, and agent-launch diagnostics.
 - Claude Desktop handoffs now open a new Code chat, type the task briefing directly, and submit it without using the clipboard when Accessibility permission is granted.
-

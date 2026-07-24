@@ -17,9 +17,8 @@
 - Added built-in Codex Desktop, Claude Desktop, VS Code, and CLI agent profiles, plus a default NHI access-group setting.
 - Added an optional floating NHI debug console for local Bridge, synchronization, and agent-launch diagnostics.
 - Claude Desktop handoffs now open a new Code chat, type the task briefing directly, and submit it without using the clipboard when Accessibility permission is granted.
-
 ]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.18.zip" length="2680843" type="application/octet-stream" sparkle:edSignature="ebX+v3rBy4l8u/6bcYqK3Zd0rMfOhFio23jmYId1hejkOiHAX8+8fa8FdtsqxsO4tbuOyK4u3nxU6kWbqMXYAA=="/>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.18.zip" length="2680843" type="application/octet-stream" sparkle:edSignature="RdY0fzTmqE7brI908stvcXlAKXBDm9L2sU/9aVsts/fbdgf3Eu83UETf//m7jFCLWKIZNjY6bU+41bgR696YBw=="/>
         </item>
         <item>
             <title>1.0.17</title>
