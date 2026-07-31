@@ -14,7 +14,7 @@
 - Added one-click Codex MCP setup for the bundled Email Reminder NHI Bridge, enabling agents in Codex to read and complete NHI tasks without direct MAP access.
 
 ]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.24.zip" length="3045711" type="application/octet-stream" sparkle:edSignature="SFclBPMX9dohZZ8FW2W/tNUK+At4moNAT9R4Msz1cQqkNTtD0v/NtvG705QSThfr7uU5ojv/8slPQRFugRWECw=="/>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.24.zip" length="3045711" type="application/octet-stream" sparkle:edSignature="deNIxkCAhdwy0OG2tz4NTXfWk7sqw8mWzlme/19D+c1BJVcnzBJLTWKJwCf1AcNLHLB8Bmz7wAiqL//T57UzCg=="/>
         </item>
         <item>
             <title>1.0.23</title>
