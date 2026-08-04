@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.25</title>
+            <pubDate>Tue, 04 Aug 2026 12:12:43 +0200</pubDate>
+            <sparkle:version>125</sparkle:version>
+            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.25
+
+- Added an instant Google Meet link button in the Calendar panel: it creates a standalone video-call room and copies its link without creating a Calendar event.
+- Added quick actions to copy an existing Google Meet event link and open Google Calendar from the Calendar panel.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.25.zip" length="3062970" type="application/octet-stream" sparkle:edSignature="UItmI7+7SuRfJo0NtB7UGTpttZaooPwuYANwq739K593EHLei8s8/hXj83A50fHeJO3Zg5oaD+1H+3EP7KV3Cw=="/>
+        </item>
+        <item>
             <title>1.0.24</title>
             <pubDate>Fri, 31 Jul 2026 11:06:46 +0200</pubDate>
             <sparkle:version>124</sparkle:version>
@@ -29,21 +44,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.23.zip" length="3041732" type="application/octet-stream" sparkle:edSignature="aztKTZDlYJJJ9LSwGjnkVYWZdaofeNsmizgbjnEcJigcLcPYTEKRtpBPez0dFbpbGf6BYOPFS++OYX/e3/v/AA=="/>
-        </item>
-        <item>
-            <title>1.0.22</title>
-            <pubDate>Fri, 24 Jul 2026 14:43:16 +0200</pubDate>
-            <sparkle:version>122</sparkle:version>
-            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.22
-
-- Bundled and automatically refresh the Codex NHI delegation skill with Email Reminder updates.
-- Added the required NHI delegation priority to the Codex skill request, with context-based priority guidance and a normal-priority fallback.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.22.zip" length="3040530" type="application/octet-stream" sparkle:edSignature="IkZmuLHwEnwjffpGPH86GxC61oXyB5yQlY5RXiR58/ypDYoj5GuX8Xy1AubD2v8YiBoQVFJ/QIm/a31Bzua6CQ=="/>
         </item>
     </channel>
 </rss>
