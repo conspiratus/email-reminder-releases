@@ -15,7 +15,7 @@
 - Task-board rows and NHI notifications now use the task destination instead of always launching an agent.
 
 ]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.30.zip" length="3193139" type="application/octet-stream" sparkle:edSignature="8lkZAnxepMQuP5Hhb3Cj7zIqq3Q9bovzxsqs1vPTFPgspeeuS3tzSHQpJe5nIm8IFNW06jI8KYUOQHi+uWV7DQ=="/>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.30.zip" length="3193141" type="application/octet-stream" sparkle:edSignature="IXVhVXKHNuPpFX+zUcodOfNyPFvjhtB9HxCdkRYKwpPTrLU3eligNpu4YNqPLR2fuQArMPdiD/RBFtmi61vHAw=="/>
         </item>
         <item>
             <title>1.0.29</title>
