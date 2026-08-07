@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.35</title>
+            <pubDate>Fri, 07 Aug 2026 12:06:15 +0200</pubDate>
+            <sparkle:version>135</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.35
+
+- Cancel a scheduled NHI reminder alert immediately when its task is completed or cancelled.
+- Ignore delayed `task.ready` queue messages whose task has already been closed, preventing stale smoke-test and cancelled-task alerts.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.35.zip" length="3227467" type="application/octet-stream" sparkle:edSignature="jPEHZFiRdHQHGiXhkqIUn+I9WPX7UwCLXUAwUSiPYQD4GllsZt1M7ObPZy1ajBBtXt8ph+iuOTu0I05aw85eBg=="/>
+        </item>
+        <item>
             <title>1.0.34</title>
             <pubDate>Fri, 07 Aug 2026 11:50:39 +0200</pubDate>
             <sparkle:version>134</sparkle:version>
@@ -32,20 +47,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.33.zip" length="3215085" type="application/octet-stream" sparkle:edSignature="C3T7nAN9WA3FCsvYXbCt/F4JcSLs2F4Crzzj455NIpnoQto4oStokTm46JhMapr8j5TipfW6biSMvKzp8vUVBQ=="/>
-        </item>
-        <item>
-            <title>1.0.32</title>
-            <pubDate>Fri, 07 Aug 2026 10:11:44 +0200</pubDate>
-            <sparkle:version>132</sparkle:version>
-            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.32
-
-- Made NHI mascot task bubbles clickable: a click now opens the task in its configured Agent or Browser destination.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.32.zip" length="3198250" type="application/octet-stream" sparkle:edSignature="HweeLJajWyjw6IWGU9XRcjCrWAlEvbOlVFmWuWqxSZ98ialIDzGq5onttzJIuEquVDMLOeFf/a7Bq6qxVwfqAQ=="/>
         </item>
     </channel>
 </rss>
