@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.41</title>
+            <pubDate>Tue, 18 Aug 2026 18:49:57 +0200</pubDate>
+            <sparkle:version>141</sparkle:version>
+            <sparkle:shortVersionString>1.0.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[<h2>Claude Code in PyCharm</h2>
+<ul>
+  <li>Automatically retains Claude Code's native session and the active PyCharm project when delegating an NHI task.</li>
+  <li>Waits until PyCharm has opened the project before opening Terminal and sending the Claude resume command.</li>
+</ul>
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.41.zip" length="3258666" type="application/octet-stream" sparkle:edSignature="ANMRrdpzUuACtFmyv5/CUeXhczRtTR9jvpnDnqUVwl505SW0nArnOR2NEZQD1d8w+oV3WHHnnXBdhPhI3qePBA=="/>
+        </item>
+        <item>
             <title>1.0.40</title>
             <pubDate>Tue, 18 Aug 2026 18:36:19 +0200</pubDate>
             <sparkle:version>140</sparkle:version>
@@ -28,19 +43,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.39.zip" length="3254698" type="application/octet-stream" sparkle:edSignature="exERwL/HW02tNVQPC8VgdFsu8NzGlCyGHta3Nbo28UbvBz/p8Xi5wsAgSIZxhhGyjOKLg9DIKghBdP2zUQ8ACg=="/>
-        </item>
-        <item>
-            <title>1.0.38</title>
-            <pubDate>Tue, 18 Aug 2026 18:13:58 +0200</pubDate>
-            <sparkle:version>138</sparkle:version>
-            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.38
-
-- Added a PyCharm IDE handoff that opens a configured project, opens its Terminal, and starts Claude Code with the NHI briefing; an existing Claude session ID can be resumed.
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.38.zip" length="3244165" type="application/octet-stream" sparkle:edSignature="tTCL/ICbTXujY/E03MQi45clPKGhjmaO4SoW5djX8zy9qcl5DlF+SU1azWceU3YR2GNAh574vZV39yvBbc5PAg=="/>
         </item>
     </channel>
 </rss>
