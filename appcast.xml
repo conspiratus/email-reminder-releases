@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.36</title>
+            <pubDate>Tue, 18 Aug 2026 17:17:12 +0200</pubDate>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.36
+
+- Fixed the Claude CLI agent profile for the standard Claude Code installation: it now discovers the newest installed native Claude Code version on every launch instead of relying on a Homebrew path.
+- Migrated the previous Homebrew-only built-in Claude CLI command to a portable `claude -p` profile.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.36.zip" length="3235197" type="application/octet-stream" sparkle:edSignature="jLYLI3u15IEv+sAMtR7FiU116cHaf5RJrmucqFEwOo/tUkej1ORomhTWa8rh3f5qNHqS2etTVCJUUAoj5YFwCQ=="/>
+        </item>
+        <item>
             <title>1.0.35</title>
             <pubDate>Fri, 07 Aug 2026 12:06:15 +0200</pubDate>
             <sparkle:version>135</sparkle:version>
@@ -32,21 +47,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.34.zip" length="3225287" type="application/octet-stream" sparkle:edSignature="csm89honPUqcwWwN2k9ZsQWhG+nIsxfre2xGx1fP231PHeX7Ab4m1gColtsFmYmts7N8vnbDWqYynF6fyodIAQ=="/>
-        </item>
-        <item>
-            <title>1.0.33</title>
-            <pubDate>Fri, 07 Aug 2026 11:06:06 +0200</pubDate>
-            <sparkle:version>133</sparkle:version>
-            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.33
-
-- Added the NHI `Reminder` destination with a local browser board for Markdown descriptions, status changes and an edit history.
-- Show self-assigned tasks in the mascot's Incoming board.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.33.zip" length="3215085" type="application/octet-stream" sparkle:edSignature="C3T7nAN9WA3FCsvYXbCt/F4JcSLs2F4Crzzj455NIpnoQto4oStokTm46JhMapr8j5TipfW6biSMvKzp8vUVBQ=="/>
         </item>
     </channel>
 </rss>
