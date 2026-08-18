@@ -3,6 +3,19 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.38</title>
+            <pubDate>Tue, 18 Aug 2026 18:13:58 +0200</pubDate>
+            <sparkle:version>138</sparkle:version>
+            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.38
+
+- Added a PyCharm IDE handoff that opens a configured project, opens its Terminal, and starts Claude Code with the NHI briefing; an existing Claude session ID can be resumed.
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.38.zip" length="3244165" type="application/octet-stream" sparkle:edSignature="tTCL/ICbTXujY/E03MQi45clPKGhjmaO4SoW5djX8zy9qcl5DlF+SU1azWceU3YR2GNAh574vZV39yvBbc5PAg=="/>
+        </item>
+        <item>
             <title>1.0.37</title>
             <pubDate>Tue, 18 Aug 2026 17:37:16 +0200</pubDate>
             <sparkle:version>137</sparkle:version>
@@ -29,21 +42,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.36.zip" length="3235197" type="application/octet-stream" sparkle:edSignature="jLYLI3u15IEv+sAMtR7FiU116cHaf5RJrmucqFEwOo/tUkej1ORomhTWa8rh3f5qNHqS2etTVCJUUAoj5YFwCQ=="/>
-        </item>
-        <item>
-            <title>1.0.35</title>
-            <pubDate>Fri, 07 Aug 2026 12:06:15 +0200</pubDate>
-            <sparkle:version>135</sparkle:version>
-            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.35
-
-- Cancel a scheduled NHI reminder alert immediately when its task is completed or cancelled.
-- Ignore delayed `task.ready` queue messages whose task has already been closed, preventing stale smoke-test and cancelled-task alerts.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.35.zip" length="3227467" type="application/octet-stream" sparkle:edSignature="jPEHZFiRdHQHGiXhkqIUn+I9WPX7UwCLXUAwUSiPYQD4GllsZt1M7ObPZy1ajBBtXt8ph+iuOTu0I05aw85eBg=="/>
         </item>
     </channel>
 </rss>
