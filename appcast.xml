@@ -3,6 +3,20 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.39</title>
+            <pubDate>Tue, 18 Aug 2026 18:20:56 +0200</pubDate>
+            <sparkle:version>139</sparkle:version>
+            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.39
+
+- Fixed PyCharm Claude handoffs to use the Claude session and project workspace supplied by the delegating agent instead of machine-specific profile settings.
+
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.39.zip" length="3254698" type="application/octet-stream" sparkle:edSignature="exERwL/HW02tNVQPC8VgdFsu8NzGlCyGHta3Nbo28UbvBz/p8Xi5wsAgSIZxhhGyjOKLg9DIKghBdP2zUQ8ACg=="/>
+        </item>
+        <item>
             <title>1.0.38</title>
             <pubDate>Tue, 18 Aug 2026 18:13:58 +0200</pubDate>
             <sparkle:version>138</sparkle:version>
@@ -27,21 +41,6 @@
 - Added a built-in `PyCharm + Claude CLI` agent profile for users who work in PyCharm and run Claude Code from the CLI.
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.37.zip" length="3235270" type="application/octet-stream" sparkle:edSignature="EkRv1wLA5iXrHVNSYYZ7G5etkPKWCAsTw8FdEqzKf5If4xoJl2KX6c/DHGpm8v+nZMJnYepGCaavLc7W5qRrAw=="/>
-        </item>
-        <item>
-            <title>1.0.36</title>
-            <pubDate>Tue, 18 Aug 2026 17:17:12 +0200</pubDate>
-            <sparkle:version>136</sparkle:version>
-            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.36
-
-- Fixed the Claude CLI agent profile for the standard Claude Code installation: it now discovers the newest installed native Claude Code version on every launch instead of relying on a Homebrew path.
-- Migrated the previous Homebrew-only built-in Claude CLI command to a portable `claude -p` profile.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.36.zip" length="3235197" type="application/octet-stream" sparkle:edSignature="jLYLI3u15IEv+sAMtR7FiU116cHaf5RJrmucqFEwOo/tUkej1ORomhTWa8rh3f5qNHqS2etTVCJUUAoj5YFwCQ=="/>
         </item>
     </channel>
 </rss>
