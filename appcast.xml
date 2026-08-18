@@ -3,6 +3,19 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.37</title>
+            <pubDate>Tue, 18 Aug 2026 17:37:16 +0200</pubDate>
+            <sparkle:version>137</sparkle:version>
+            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.37
+
+- Added a built-in `PyCharm + Claude CLI` agent profile for users who work in PyCharm and run Claude Code from the CLI.
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.37.zip" length="3235270" type="application/octet-stream" sparkle:edSignature="EkRv1wLA5iXrHVNSYYZ7G5etkPKWCAsTw8FdEqzKf5If4xoJl2KX6c/DHGpm8v+nZMJnYepGCaavLc7W5qRrAw=="/>
+        </item>
+        <item>
             <title>1.0.36</title>
             <pubDate>Tue, 18 Aug 2026 17:17:12 +0200</pubDate>
             <sparkle:version>136</sparkle:version>
@@ -31,22 +44,6 @@
 
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.35.zip" length="3227467" type="application/octet-stream" sparkle:edSignature="jPEHZFiRdHQHGiXhkqIUn+I9WPX7UwCLXUAwUSiPYQD4GllsZt1M7ObPZy1ajBBtXt8ph+iuOTu0I05aw85eBg=="/>
-        </item>
-        <item>
-            <title>1.0.34</title>
-            <pubDate>Fri, 07 Aug 2026 11:50:39 +0200</pubDate>
-            <sparkle:version>134</sparkle:version>
-            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.34
-
-- Kept Reminder tasks in Incoming until their status changes, while acknowledging their queue delivery after local persistence so it cannot repeat every lease cycle.
-- Made scheduled NHI task notifications one-shot across inbox refreshes and app restarts.
-- Added supported NHI Bridge fields for listing and updating existing tasks, including their due date.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.34.zip" length="3225287" type="application/octet-stream" sparkle:edSignature="csm89honPUqcwWwN2k9ZsQWhG+nIsxfre2xGx1fP231PHeX7Ab4m1gColtsFmYmts7N8vnbDWqYynF6fyodIAQ=="/>
         </item>
     </channel>
 </rss>
