@@ -3,6 +3,19 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.40</title>
+            <pubDate>Tue, 18 Aug 2026 18:36:19 +0200</pubDate>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>1.0.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## 1.0.40
+
+- Added explicit PyCharm Claude session and workspace arguments to the NHI delegation helper, so task context is not lost when Claude Code does not export its session ID as an environment variable.
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.40.zip" length="3255707" type="application/octet-stream" sparkle:edSignature="jn1O+xmt7Ym/WYutKDQfmdvEA+RFJQRId996zspugdxV33pYcurJy4UlC/pY4iE1vpaY3ariKvlN7szXQJ1AAA=="/>
+        </item>
+        <item>
             <title>1.0.39</title>
             <pubDate>Tue, 18 Aug 2026 18:20:56 +0200</pubDate>
             <sparkle:version>139</sparkle:version>
@@ -28,19 +41,6 @@
 - Added a PyCharm IDE handoff that opens a configured project, opens its Terminal, and starts Claude Code with the NHI briefing; an existing Claude session ID can be resumed.
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.38.zip" length="3244165" type="application/octet-stream" sparkle:edSignature="tTCL/ICbTXujY/E03MQi45clPKGhjmaO4SoW5djX8zy9qcl5DlF+SU1azWceU3YR2GNAh574vZV39yvBbc5PAg=="/>
-        </item>
-        <item>
-            <title>1.0.37</title>
-            <pubDate>Tue, 18 Aug 2026 17:37:16 +0200</pubDate>
-            <sparkle:version>137</sparkle:version>
-            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.37
-
-- Added a built-in `PyCharm + Claude CLI` agent profile for users who work in PyCharm and run Claude Code from the CLI.
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.37.zip" length="3235270" type="application/octet-stream" sparkle:edSignature="EkRv1wLA5iXrHVNSYYZ7G5etkPKWCAsTw8FdEqzKf5If4xoJl2KX6c/DHGpm8v+nZMJnYepGCaavLc7W5qRrAw=="/>
         </item>
     </channel>
 </rss>
