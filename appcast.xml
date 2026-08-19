@@ -3,6 +3,21 @@
     <channel>
         <title>Email Reminder</title>
         <item>
+            <title>1.0.42</title>
+            <pubDate>Wed, 19 Aug 2026 10:01:38 +0200</pubDate>
+            <sparkle:version>142</sparkle:version>
+            <sparkle:shortVersionString>1.0.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[<h2>Reliable PyCharm Claude handoff</h2>
+<ul>
+  <li>Self-assigned NHI tasks now resume the exact local Claude Code session that created the delegation.</li>
+  <li>PyCharm is given time to finish loading its new project before Email Reminder opens Terminal and sends Claude the briefing.</li>
+</ul>
+]]></description>
+            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.42.zip" length="3260787" type="application/octet-stream" sparkle:edSignature="0TDXsXlnjekmXSF8PuWdxz4jbldSpl4UynDTC7ju8USP4Rh/8HLHdryi+r47y2oXqL+Sqo8RTVCbEOLISrwBAA=="/>
+        </item>
+        <item>
             <title>1.0.41</title>
             <pubDate>Tue, 18 Aug 2026 18:49:57 +0200</pubDate>
             <sparkle:version>141</sparkle:version>
@@ -29,20 +44,6 @@
 - Added explicit PyCharm Claude session and workspace arguments to the NHI delegation helper, so task context is not lost when Claude Code does not export its session ID as an environment variable.
 ]]></description>
             <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.40.zip" length="3255707" type="application/octet-stream" sparkle:edSignature="jn1O+xmt7Ym/WYutKDQfmdvEA+RFJQRId996zspugdxV33pYcurJy4UlC/pY4iE1vpaY3ariKvlN7szXQJ1AAA=="/>
-        </item>
-        <item>
-            <title>1.0.39</title>
-            <pubDate>Tue, 18 Aug 2026 18:20:56 +0200</pubDate>
-            <sparkle:version>139</sparkle:version>
-            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## 1.0.39
-
-- Fixed PyCharm Claude handoffs to use the Claude session and project workspace supplied by the delegating agent instead of machine-specific profile settings.
-
-]]></description>
-            <enclosure url="https://conspiratus.github.io/email-reminder-releases/EmailReminder-1.0.39.zip" length="3254698" type="application/octet-stream" sparkle:edSignature="exERwL/HW02tNVQPC8VgdFsu8NzGlCyGHta3Nbo28UbvBz/p8Xi5wsAgSIZxhhGyjOKLg9DIKghBdP2zUQ8ACg=="/>
         </item>
     </channel>
 </rss>
